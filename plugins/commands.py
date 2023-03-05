@@ -11,7 +11,7 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'codingtuto'
 
     # start text
-    text = f"""**Hey! {m.from_user.mention(style='md')}, je suis Style Robot!
+    text = f"""**Hey! {m.from_user.mention(style='md')}, je suis Stylish Text!
 Je peux vous aider à obtenir des styles de textes élégantes. Envoyez-moi simplement un message et voyez la magie.**
 
 **👨‍💻 Maintenu par :** {owner.mention(style='md')}
