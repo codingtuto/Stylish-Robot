@@ -23,7 +23,6 @@ Je peux vous aider à obtenir des styles de textes élégantes. Envoyez-moi simp
             InlineKeyboardButton('📬 Support', url=f"https://t.me/{owner_username}"),InlineKeyboardButton('📦 Codes Sources', url="https://github.com/codingtuto/Stylish-Robot/")
         ]
     ]
-    bot.send_chat_action(chat_id, "typing")
     await m.reply_text(
         text=text,
         reply_markup=InlineKeyboardMarkup(buttons)
