@@ -1,7 +1,7 @@
-# Bot de police élégant 🐿
-Il s'agit d'un bot de télégramme qui vous aide à obtenir des polices et du texte élégants.
+# Style Robot 🐿
+Il s'agit d'un bot de telegram qui vous aide à obtenir des polices et du texte élégants.
 
-<a href="https://telegram.dog/stylishtext_Nsbot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://telegram.dog/CTStylebot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 [![Open source? Oui !](https://badgen.net/badge/Open%20Source%20%3F/Yes/yellow?icon=github)](https://github.com/codingtuto/Stylish-Robot)
 [![Demandez-moi n'importe quoi !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/codingtuto)
 [![Signaler des bugs !](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/codingtuto)
