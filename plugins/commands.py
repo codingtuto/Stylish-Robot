@@ -8,22 +8,22 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.command('start'))
 async def start(c, m):
     owner = await c.get_users(int(Config.OWNER_ID))
-    owner_username = owner.username if owner.username else 'Ns_bot_updates'
+    owner_username = owner.username if owner.username else 'codingtuto'
 
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
 
-💡 ** I am Stylish Font Bot**
+💡 ** Je suis Style Robot**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+`Je peux vous aider à obtenir des styles de textes élégantes. Envoyez-moi simplement un message et voyez la magie.`
 
-**👲 Maintained By:** {owner.mention(style='md')}
+**👲 Maintenu par:** {owner.mention(style='md')}
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}")
+            InlineKeyboardButton('🔔 Support', url=f"https://t.me/{owner_username}")
         ]
     ]
     await m.reply_text(
@@ -64,7 +64,7 @@ async def style_buttons(c, m, cb=False):
         InlineKeyboardButton('H̆̈ă̈p̆̈p̆̈y̆̈', callback_data='style+happy'),
         InlineKeyboardButton('S̑̈ȃ̈d̑̈', callback_data='style+sad'),
         ],[
-        InlineKeyboardButton('Next ➡️', callback_data="nxt")
+        InlineKeyboardButton('Suivant ➡️', callback_data="nxt")
     ]]
     if not cb:
         await m.reply_text(m.text, reply_markup=InlineKeyboardMarkup(buttons), quote=True)
@@ -101,7 +101,7 @@ async def nxt(c, m):
             InlineKeyboardButton('S̶t̶r̶i̶k̶e̶', callback_data='style+strike'),
             InlineKeyboardButton('F༙r༙o༙z༙e༙n༙', callback_data='style+frozen')
             ],[
-            InlineKeyboardButton('⬅️ Back', callback_data='nxt+0')
+            InlineKeyboardButton('⬅️ Retour', callback_data='nxt+0')
         ]]
         await m.answer()
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
