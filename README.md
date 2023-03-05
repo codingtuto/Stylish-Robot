@@ -10,7 +10,7 @@ Il s'agit d'un bot de telegram qui vous aide à obtenir des polices et du texte 
 
 - `API_HASH :` Obtenez cette valeur à partir de [my.telegram.org](https://my.telegram.org).
 
-- `API_KEY :` Obtenez cette valeur à partir de [my.telegram.org](https://my.telegram.org).
+- `API_ID :` Obtenez cette valeur à partir de [my.telegram.org](https://my.telegram.org).
 
 - `BOT_TOKEN :` Obtenez le jeton du bot de [Bot Father <img src="https://telegra.ph/file/8d80c13110506bf1cb58e.jpg" width="30" height="30">](https://telegram .dog/BotFather)
 
@@ -22,5 +22,5 @@ Appuyez sur le bouton Deploy to heroku et donnez les valeurs pour les vars de co
 [![Déployer](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/codingtuto/Stylish-Robot/ )
 
 ## Outils utilisés 🧰
-- Langue utilisée [<img src="https://telegra.ph/file/960ed8709acaf8c68b894.jpg" width="100" height="30">](https://www.python.org/)
-- Travail de cadre [<img src="https://telegra.ph/file/804f06d1590f7619a63ed.jpg" width="100" height="40">](https://github.com/pyrogram/pyrogram)
+- Langage [<img src="https://telegra.ph/file/960ed8709acaf8c68b894.jpg" width="100" height="30">](https://www.python.org/)
+- Librairie [<img src="https://telegra.ph/file/804f06d1590f7619a63ed.jpg" width="100" height="40">](https://github.com/pyrogram/pyrogram)
